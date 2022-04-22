@@ -51,9 +51,6 @@ export default function Final() {
   const [selectedTab, setSelectedTab] = React.useState(-1);
 
   const [data, setData] = React.useState<null | FullData[]>(null);
-  //const [displayData, setDisplayData] = React.useState([
-  // "Data Has Not Been Loaded",
-  //]);
 
   const [zoomData, setZoomData] = React.useState<null | ZoomData>(null);
 
